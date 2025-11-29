@@ -1,4 +1,4 @@
-import { useContext } from "React";
+import { useContext } from "react";
 import { NameContext } from "../assets/context.js";
 import ComponentFive from './componentFive'
 
