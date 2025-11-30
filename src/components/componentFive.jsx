@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import ComponentSix from './componentSix'
 
 export default function ComponentFive() {
   const [name, setName] = useState("");
@@ -42,6 +43,7 @@ export default function ComponentFive() {
         Count: {count}, Ref: {countRef.current}
       </p>
       <button onClick={handleIncrement}>Increment</button>
+      <ComponentSix />
     </>
   );
 }
